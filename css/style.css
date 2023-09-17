@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+/*=============================================*/
+.todoBox{
+    width: 600px;
+    background-color: rgb(148, 200, 233);
+    padding: 60px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.input{
+    width: 75%;
+    border: 1px solid red;
+    outline: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.add{
+    width: 20%;
+    border: 1px solid red;
+    outline: 0;
+    padding: 10px 0 ;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.text ul li{
+    justify-content:space-between;
+    display: flex;
+    
+}
